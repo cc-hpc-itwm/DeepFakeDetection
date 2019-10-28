@@ -15,7 +15,7 @@ different automated face manipulation methods. Additionally,it is hosting DeepFa
 sequences from 28 paid actors in 16 different scenes as well as over 3000 manipulated videos using DeepFakes and their corresponding binary masks.
 All videos contain a trackable mostly frontal face without occlusions which enables automated tampering methods to generate realistic forgeries.
 
-
+Click here to go the experiments on DeepFakeDetection.
 
 
 
