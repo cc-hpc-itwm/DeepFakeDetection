@@ -18,8 +18,8 @@ Tested on Python 3.6.x.
 ## Analysis Faces-HQ
 To the best of our knowledge, no public dataset gathers images containing both artificially and real faces, therefore, we have created our own called Faces-HQ.
 In order to have a sufficient variety of faces, we have chosen to download and label, images available from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196),
-[Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948), [100K Facesproject](https://generated.photos/) and [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com). In total, we have collected 40K high quality
-images being half of them real and the other half fake faces, achieving in this manner a balanced dataset.
+[Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948), [100K Facesproject](https://generated.photos/) and [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com). 
+In total, we have collected 40K high quality images being half of them real and the other half fake faces, achieving in this manner a balanced dataset.
 
 Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 
@@ -32,13 +32,22 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
 
-## References
+## Datasets
 
-This repo combines the pytorch implementation of the following paper:
+This repo uses and combines several datasets:
 
->Karras et al. [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196).
+### Celeb-HQ
 
->Karras et al. [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948).
+>CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
+We take 10K samples from this dataset.
+
+>Flickr-Faces-HQ dataset [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948).
+ We take 10K samples from this dataset and we convert to JPEG format.
+ 
+>[www.thispersondoesnotexist.com](www.thispersondoesnotexist.com) We take 10K samples from this website uisng this 
+[script](https://github.com/rayheffer/tpdne/blob/master/tpdne.sh)
+
+>[100K Facesproject](https://generated.photos/) We take 10K samples from this datast.
 
 
 ### Citation
