@@ -32,11 +32,10 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
 
-## Datasets
+## Datasets Faces-HQ
 
-This repo uses and combines several datasets:
+This repo uses and combines several datasets to form Faces-HQ:
 
-### Celeb-HQ
 
 >CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
 We take 10K samples from this dataset.
