@@ -23,6 +23,12 @@ In total, we have collected 40K high quality images being half of them real and 
 
 Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 
+### Results
+
+<b>Faces-HQ dataset.</b>
+Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
+![Faces-HQ](imgs/results1.png) 
+
 ## Analysis DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
 different automated face manipulation methods. Additionally,it is hosting DeepFakeDetection Dataset. In particular, this dataset contains 363 original
@@ -31,11 +37,18 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
+### Results
+
+<b>DeepFakeDetectiondataset.</b>
+Test accuracy using SVM and logistic regression classifier under different data settings.
+![DeepFakeDetection](imgs/results2.png)
+
 
 ## Datasets Faces-HQ
 
 This repo uses and combines several datasets to form Faces-HQ:
 
+![Faces-HQ dataset structure.](imgs/dataset.png) 
 
 >We take 10K samples from CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
 
@@ -46,19 +59,6 @@ and we convert to JPEG format.
 [script](https://github.com/rayheffer/tpdne/blob/master/tpdne.sh)
 
 >We take 10K samples from [100K Facesproject](https://generated.photos/).
-
-Faces-HQ dataset structure.
-![Datset](imgs/dataset.png) 
-
-### Results
-
-<b>Faces-HQ dataset.</b>
-Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
-![Faces-HQ](imgs/results1.png) 
-
-<b>DeepFakeDetectiondataset.</b>
-Test accuracy using SVM and logistic regression classifier under different data settings.
-![DeepFakeDetection](imgs/results2.png)
 
 
 ### Citation
