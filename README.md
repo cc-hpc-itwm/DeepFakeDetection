@@ -4,6 +4,8 @@ This repository provides the official Python implementation of Unmasking DeepFak
 ## Dependencies
 Tested on Python 3.6.x.
 * [NumPy](http://www.numpy.org/) (1.16.2)
+* [Opencv](https://opencv.org/opencv-4-0/) (4.0.0)
+* [Matplotlib](https://matplotlib.org/)(3.1.1)
 
 
 
@@ -18,19 +20,6 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
 
-
-The full [CelebA-HQ](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 128 by 128 pixels, set the path and run `resize_celeba.py`.
-
-
-### Example hyper-parameters definition (wgan.sh)
-```
-python train.py --type wgan \
-           --nb-epochs 50 \
-           --learning-rate 0.00005 \
-           --optimizer rmsprop \
-           --critic 5 \
-           --cuda
-```
 
 ### Comparision between DCGAN with and wihtout Octave Convolution
 
