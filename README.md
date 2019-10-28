@@ -37,16 +37,28 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 This repo uses and combines several datasets to form Faces-HQ:
 
 
->CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
-We take 10K samples from this dataset.
+>We take 10K samples from CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
 
->Flickr-Faces-HQ dataset [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948).
- We take 10K samples from this dataset and we convert to JPEG format.
+>We take 10K samples from Flickr-Faces-HQ dataset [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
+and we convert to JPEG format.
  
->[www.thispersondoesnotexist.com](www.thispersondoesnotexist.com) We take 10K samples from this website uisng this 
+>We take 10K samples from [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com) uisng this 
 [script](https://github.com/rayheffer/tpdne/blob/master/tpdne.sh)
 
->[100K Facesproject](https://generated.photos/) We take 10K samples from this datast.
+>We take 10K samples from [100K Facesproject](https://generated.photos/).
+
+Faces-HQ dataset structure.
+![Datset](imgs/dataset.png) 
+
+### Results
+
+<b>Faces-HQ dataset.</b>
+Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
+![Faces-HQ](imgs/results1.png) 
+
+<b>DeepFakeDetectiondataset.</b>
+Test accuracy using SVM and logistic regression classifier under different data settings.
+![DeepFakeDetection](imgs/results2.png)
 
 
 ### Citation
