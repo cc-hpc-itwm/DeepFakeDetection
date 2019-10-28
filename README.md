@@ -15,7 +15,7 @@ Tested on Python 3.6.x.
 
 
 
-## Analysis Faces-HQ
+## Detection Faces-HQ
 To the best of our knowledge, no public dataset gathers images containing both artificially and real faces, therefore, we have created our own called Faces-HQ.
 In order to have a sufficient variety of faces, we have chosen to download and label, images available from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196),
 [Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948), [100K Facesproject](https://generated.photos/) and [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com). 
@@ -29,7 +29,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 ![Faces-HQ](imgs/results1.png) 
 
-## Analysis DeepFakeDetection (FaceForensics++)
+## Detection DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
 different automated face manipulation methods. Additionally,it is hosting DeepFakeDetection Dataset. In particular, this dataset contains 363 original
 sequences from 28 paid actors in 16 different scenes as well as over 3000 manipulated videos using DeepFakes and their corresponding binary masks.
