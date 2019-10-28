@@ -29,7 +29,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 ### Comparision between DCGAN with and wihtout Octave Convolution
 
-![Overview of the pipeline](imgs/evo.png) 
+![Overview of the pipeline](imgs/pipeline.png) 
 
 ## References
 
