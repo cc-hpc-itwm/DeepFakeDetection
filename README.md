@@ -36,6 +36,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 This repo combines the pytorch implementation of the following paper:
 
 >Karras et al. [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196).
+
 >Karras et al. [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948).
 
 
