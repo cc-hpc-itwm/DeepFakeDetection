@@ -50,9 +50,9 @@ This repo uses and combines several datasets to form Faces-HQ:
 
 ![Faces-HQ dataset structure.](imgs/dataset.png) 
 
->We take 10K samples from CelebA-HQ dataset [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196). 
+>We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
->We take 10K samples from Flickr-Faces-HQ dataset [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
+>We take 10K samples from [Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948)
 and we convert to JPEG format.
  
 >We take 10K samples from [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com) uisng this 
