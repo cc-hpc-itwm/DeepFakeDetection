@@ -1,6 +1,12 @@
 # [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1905.12534)
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features. 
+
+![Overview of the pipeline](imgs/pipeline.png) 
+Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
+training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
+before DFT.
+
 ## Dependencies
 Tested on Python 3.6.x.
 * [NumPy](http://www.numpy.org/) (1.16.2)
@@ -25,11 +31,6 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
-
-
-### Comparision between DCGAN with and wihtout Octave Convolution
-
-![Overview of the pipeline](imgs/pipeline.png) 
 
 ## References
 
