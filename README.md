@@ -5,11 +5,17 @@ This repository provides the official Python implementation of Unmasking DeepFak
 Tested on Python 3.6.x.
 * [NumPy](http://www.numpy.org/) (1.16.2)
 * [Opencv](https://opencv.org/opencv-4-0/) (4.0.0)
-* [Matplotlib](https://matplotlib.org/)(3.1.1)
+* [Matplotlib](https://matplotlib.org/) (3.1.1)
 
 
 
-## Analysis Faces_HQ
+## Analysis Faces-HQ
+To the best of our knowledge, no public dataset gathers images containing both artificially and real faces, therefore, we have created our own called Faces-HQ.
+In order to have a sufficient variety of faces, we have chosen to download and label, images available from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196),
+[Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948), [100K Facesproject](https://generated.photos/) and [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com). In total, we have collected 40K high quality
+images being half of them real and the other half fake faces, achieving in this manner a balanced dataset.
+
+Click [here](/Experiments_Faces-HQ) to go the experiments on DeepFakeDetection.
 
 ## Analysis DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
@@ -29,8 +35,8 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo combines the pytorch implementation of the following paper:
 
->Goodfellow et al. [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661).
-
+>Karras et al. [Progressive growing of gans for improved quality, stability, and variation](https://arxiv.org/abs/1710.10196).
+>Karras et al. [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948).
 
 
 ### Citation
