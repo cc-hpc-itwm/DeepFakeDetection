@@ -21,7 +21,7 @@ In order to have a sufficient variety of faces, we have chosen to download and l
 [Flickr-Faces-HQ dataset](https://arxiv.org/abs/1812.04948), [100K Facesproject](https://generated.photos/) and [www.thispersondoesnotexist.com](www.thispersondoesnotexist.com). In total, we have collected 40K high quality
 images being half of them real and the other half fake faces, achieving in this manner a balanced dataset.
 
-Click [here](/Experiments_Faces-HQ) to go the experiments on DeepFakeDetection.
+Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 
 ## Analysis DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
