@@ -39,7 +39,8 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 ### Results
 
-<b>DeepFakeDetectiondataset.</b>
+<b>DeepFakeDetection dataset.</b>
+
 Test accuracy using SVM and logistic regression classifier under different data settings.
 ![DeepFakeDetection](imgs/results2.png)
 
