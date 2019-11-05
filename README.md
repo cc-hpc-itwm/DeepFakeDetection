@@ -42,7 +42,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-![DeepFakeDetection](imgs/results2.png)
+![DeepFakeDetection](imgs/results2.png)<br/>
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
