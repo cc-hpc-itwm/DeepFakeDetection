@@ -2,7 +2,7 @@
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
-<img align="left" src="imgs/pipeline.png" width="800" >
+<img align="left" src="imgs/pipeline.png" width="1000" >
 
 Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
 training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
