@@ -1,6 +1,6 @@
-# [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1905.12534)
+# [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1911.00686)
 
-This repository provides the official Python implementation of Unmasking DeepFake with simple Features. 
+This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
 ![Overview of the pipeline](imgs/pipeline.png) 
 Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
@@ -61,14 +61,18 @@ and we convert to JPEG format.
 
 >We take 10K samples from [100K Facesproject](https://generated.photos/).
 
+### Download full (19GB) Faces-HQ data set: [https://cutt.ly/6enDLYG](https://cutt.ly/6enDLYG)
+
 
 ### Citation
 If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1905.12534):
 ```
-@article{durall2019dropgan,
-  title={Stabilizing GANs with Octave Convolutions},
-  author={Durall, Ricard and Pfreundt, Franz-Josef and Keuper, Janis},
-  journal={arXiv preprint arXiv:1905.12534},
-  year={2019}
+@misc{durall2019unmasking,
+    title={Unmasking DeepFakes with simple Features},
+    author={Ricard Durall and Margret Keuper and Franz-Josef Pfreundt and Janis Keuper},
+    year={2019},
+    eprint={1911.00686},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
 }
 ```
