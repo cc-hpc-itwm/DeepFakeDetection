@@ -2,7 +2,7 @@
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
-<img align="left" src="imgs/pipeline.png" width="1000" >
+<img align="left" src="imgs/pipeline.png" width="1000"/>
 
 Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
 training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
@@ -29,7 +29,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
-<img align="left" src="imgs/results1.png" width="400" >
+<img align="left" src="imgs/results1.png" width="400"/>
 <br style=“line-height:15;”>
 
 ## Detection DeepFakeDetection (FaceForensics++)
@@ -45,12 +45,12 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-<img align="left" src="imgs/results2.png" width="400" >
+<img align="left" src="imgs/results2.png" width="400"/>
 
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
-<img align="left" src="imgs/results3.png" width="400" >
+<img align="left" src="imgs/results3.png" width="400"/>
 
 
 
@@ -58,7 +58,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo uses and combines several datasets to form Faces-HQ:
 
-<img align="left" src="imgs/dataset.png" width="400" >
+<img align="left" src="imgs/dataset.png" width="400"/>
 
 >We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
