@@ -65,7 +65,7 @@ and we convert to JPEG format.
 
 
 ### Citation
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1905.12534):
+If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1911.00686):
 ```
 @misc{durall2019unmasking,
     title={Unmasking DeepFakes with simple Features},
@@ -76,3 +76,6 @@ If this work is useful for your research, please cite our [paper](https://arxiv.
     primaryClass={cs.LG}
 }
 ```
+
+
+
