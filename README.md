@@ -45,12 +45,12 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-![DeepFakeDetection](imgs\results2.png)
+<img align="left" src="imgs/results2.png" width="400" >
 
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
-![DeepFakeDetection](imgs\results3.png)
+<img align="left" src="imgs/results3.png" width="400" >
 
 
 
@@ -58,7 +58,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo uses and combines several datasets to form Faces-HQ:
 
-![Faces-HQ dataset structure.](imgs\dataset.png) 
+<img align="left" src="imgs/dataset.png" width="400" >
 
 >We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
