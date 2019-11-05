@@ -2,7 +2,7 @@
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
-![Overview of the pipeline](imgs/pipeline.png) 
+![Overview of the pipeline](imgs\pipeline.png) 
 Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
 training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
 before DFT.
@@ -27,7 +27,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
-![Faces-HQ](imgs/results1.png) 
+![Faces-HQ](imgs\results1.png) 
 
 ## Detection DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
@@ -42,12 +42,12 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-![DeepFakeDetection](imgs/results2.png)
+![DeepFakeDetection](imgs\results2.png)
 
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
-![DeepFakeDetection](imgs/results3.png)
+![DeepFakeDetection](imgs\results3.png)
 
 
 
@@ -55,7 +55,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo uses and combines several datasets to form Faces-HQ:
 
-![Faces-HQ dataset structure.](imgs/dataset.png) 
+![Faces-HQ dataset structure.](imgs\dataset.png) 
 
 >We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
