@@ -31,7 +31,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
 <img align="left" src="imgs/results1.png" width="500"/>
-
+</p>
 
 <p>
 ## Detection DeepFakeDetection (FaceForensics++)
