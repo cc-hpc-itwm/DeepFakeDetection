@@ -1,4 +1,4 @@
-# [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1911.00686)
+<h1> [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1911.00686) </h1> 
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
@@ -32,7 +32,7 @@ Test accuracy using SVM, logistic regression and k-means classifier under differ
 
 <img align="left" src="imgs/results1.png" width="500"/>
 
-## Detection DeepFakeDetection (FaceForensics++)
+<h2> Detection DeepFakeDetection (FaceForensics++) </h2>
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
 different automated face manipulation methods. Additionally,it is hosting DeepFakeDetection Dataset. In particular, this dataset contains 363 original
 sequences from 28 paid actors in 16 different scenes as well as over 3000 manipulated videos using DeepFakes and their corresponding binary masks.
@@ -40,7 +40,7 @@ All videos contain a trackable mostly frontal face without occlusions which enab
 
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
-### Results
+<h3> Results  </h3>
 
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
@@ -54,7 +54,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 
 
-## Datasets Faces-HQ
+<h2> Datasets Faces-HQ  </h2>
 
 This repo uses and combines several datasets to form Faces-HQ:
 
@@ -70,10 +70,10 @@ and we convert to JPEG format.
 
 >We take 10K samples from [100K Facesproject](https://generated.photos/).
 
-### Download full (19GB) Faces-HQ data set: [https://cutt.ly/6enDLYG](https://cutt.ly/6enDLYG)
+<h3> Download full (19GB) Faces-HQ data set: [https://cutt.ly/6enDLYG](https://cutt.ly/6enDLYG)  </h3>
 
 
-### Citation
+<h3>  Citation  </h3>
 If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1911.00686):
 ```
 @misc{durall2019unmasking,
