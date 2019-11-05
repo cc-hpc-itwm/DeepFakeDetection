@@ -29,7 +29,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
-<img align="left" src="imgs/results1.png" width="400"/>
+<img align="left" src="imgs/results1.png" width="500"/>
 <br style=“line-height:15;”>
 
 ## Detection DeepFakeDetection (FaceForensics++)
@@ -50,7 +50,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
-<img align="left" src="imgs/results3.png" width="400"/>
+<img align="left" src="imgs/results3.png" width="200"/>
 
 
 
@@ -58,7 +58,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo uses and combines several datasets to form Faces-HQ:
 
-<img align="left" src="imgs/dataset.png" width="400"/>
+<img align="left" src="imgs/dataset.png" width="500"/>
 
 >We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
