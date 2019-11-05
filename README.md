@@ -29,7 +29,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
-<img align="left" src="imgs/results1.png" width="200" >
+<img align="left" src="imgs/results1.png" width="200" ><br />
 
 ## Detection DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
