@@ -1,4 +1,4 @@
-# [Unmasking DeepFake with simple Features](https://arxiv.org/abs/1911.00686)
+# [Unmasking DeepFakes with simple Features](https://arxiv.org/abs/1911.00686)
 
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features (Paper: [https://arxiv.org/abs/1911.00686](https://arxiv.org/abs/1911.00686)).
 
