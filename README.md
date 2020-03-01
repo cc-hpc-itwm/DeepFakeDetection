@@ -30,7 +30,7 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
-<img align="center" src="imgs/faces_results.png" width="500"/>
+<img align="center" src="imgs/faces_results.PNG" width="500"/>
 
 
 ### Detection CelebA
@@ -57,7 +57,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-<img align="center" src="imgs/deep_results.png" width="400"/>
+<img align="center" src="imgs/deep_results.PNG" width="400"/>
 
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
