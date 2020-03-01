@@ -30,7 +30,19 @@ Click [here](/Experiments_Faces-HQ) to go the experiments on Faces-HQ.
 <b>Faces-HQ dataset.</b>
 Test accuracy using SVM, logistic regression and k-means classifier under different data settings.
 
-<img align="center" src="imgs/results1.png" width="500"/>
+<img align="center" src="imgs/faces_results.png" width="500"/>
+
+
+### Detection CelebA
+ [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 
+200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large 
+diversities, large quantities, and rich annotations
+
+Click [here](/Experiments_CelebA) to go the experiments on CelebA.
+
+### Results
+<img align="center" src="imgs/celeba_ results.PNG" width="500"/>
+
 
 ## Detection DeepFakeDetection (FaceForensics++)
  [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
@@ -45,7 +57,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <b>DeepFakeDetection dataset.</b>
 <p><i>Results based on frames.<i></p>
 <p>Test accuracy using SVM and logistic regression classifier under different data settings.</p>
-<img align="center" src="imgs/results2.png" width="400"/>
+<img align="center" src="imgs/deep_results.png" width="400"/>
 
 
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
