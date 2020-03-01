@@ -1,9 +1,3 @@
 # Experiments Face-HQ
-This folder contains the following files:
- <ul>
-  <li>Visulaization script</li>
-  <li>Classification script</li>
-  <li>Link to download [Faces-HQ dataset](https://cutt.ly/6enDLYG)</li>
-</ul> 
+Link to download [Faces-HQ dataset](https://cutt.ly/6enDLYG)
 <img align="center" src="/imgs/1000_hq.png" width="800"/>
-<img align="center" src="/imgs/faces_results.png" width="300"/>
