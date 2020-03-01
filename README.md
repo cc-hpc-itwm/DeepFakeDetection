@@ -41,7 +41,7 @@ diversities, large quantities, and rich annotations
 Click [here](/Experiments_CelebA) to go the experiments on CelebA.
 
 ### Results
-<img align="center" src="imgs/celeba_ results.PNG" width="500"/>
+<img align="center" src="imgs/celeba_ results.png" width="500"/>
 
 
 ## Detection DeepFakeDetection (FaceForensics++)
