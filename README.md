@@ -71,7 +71,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
 <p align='center'>  
-    <img align="center" src="imgs/results3.png" width="300"/>
+    <img align="center" src="imgs/results3.png" width="200"/>
 </p>
 
 
