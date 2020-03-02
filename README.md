@@ -71,7 +71,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 <p><i>Results based on videos. (We apply a simple majority vote over the single frame classifications).<i></p>
 <p>Test accuracy using SVM and logistic regression classifier.</p>
 <p align='center'>  
-    <img align="center" src="imgs/results3.png.PNG" width="100"/>
+    <img align="center" src="imgs/results3.png" width="100"/>
 </p>
 
 
@@ -80,7 +80,7 @@ Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDe
 
 This repo uses and combines several datasets to form Faces-HQ:
 
-<img align="center" src="imgs/dataset.png" width="400"/>
+<img align="center" src="imgs/dataset.png" width="500"/>
 
 >We take 10K samples from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196). 
 
