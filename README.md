@@ -108,5 +108,8 @@ If this work is useful for your research, please cite our [paper](https://arxiv.
 }
 ```
 
+# Follow-up work (CVPR Paper)
+Following this pre-print, we have a CVPR 2020 paper, looking into the theory of spectral distortions by GANs and a way to fix this. 
 
-
+* Pre-Print: [Watch your Up-Convolution: CNN Based Generative Deep Neural Networks are Failing to Reproduce Spectral Distributions](https://arxiv.org/abs/2003.01826)
+* [GitHub Repo](https://github.com/cc-hpc-itwm/UpConv)
