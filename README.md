@@ -108,6 +108,14 @@ If this work is useful for your research, please cite our [paper](https://arxiv.
 }
 ```
 
+## Some notes on data pre-processing
+Some users have difficulties to get the deteection working on new data sets. Here are some remarks:
+* For complex scenes, you need to run a feace detection first! Our approach will not work if the face/fake is not the dominant part of the input. Try to capture the inner parts of the faces without a lot of background... 
+* Any re-sampling/re-scaling of the input images might distort the frequency spectrum: Do NOT resize the images, resize the spectra afterwards! Also: some prominent face detectors do resizing, don't use them if you can't turn it off.
+* Use square input images (non square image might distort the radial sampling)
+* Plot the spectra of your input data to check if they show the charaecteristic propoerties
+* Our approach might not work on videos/images that have been compressed to a large extend (impacts the spectrum). 
+
 # Follow-up work (CVPR Paper)
 Following this pre-print, we have a CVPR 2020 paper, looking into the theory of spectral distortions by GANs and a way to fix this. 
 
